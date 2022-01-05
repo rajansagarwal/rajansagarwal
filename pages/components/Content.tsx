@@ -25,7 +25,7 @@ const Content = () => {
           lineHeight="shorter"
           color={useColorModeValue("gray.100", "white")}
         >
-          hey, i'm rajan
+          hey, im rajan
         </chakra.h1>
         <chakra.h1
           mb={3}

@@ -50,7 +50,7 @@ const Hero = () => {
           lineHeight="shorter"
           color={useColorModeValue("gray.100", "white")}
         >
-          Currently, I'm working on a custom blockchain for deployment.
+          Currently, I&apos;m working on a custom blockchain for deployment.
         </Heading>
         <Heading
           as="h4"
