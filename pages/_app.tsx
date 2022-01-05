@@ -12,7 +12,7 @@ const theme = extendTheme({
   },
 })
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }): any {
   return (
     <ChakraProvider>
       <Component {...pageProps} />
