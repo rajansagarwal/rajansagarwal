@@ -72,7 +72,7 @@ const Hero = () => {
           lineHeight="shorter"
           color={useColorModeValue("gray.100", "white")}
         >
-          Within the community, I initiate actionable ventures.
+          Within the community, I initiate actionable ventures. 
         </Heading>
         <chakra.p 
            className="description"
