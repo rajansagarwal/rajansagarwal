@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #090c0d;
+  color: white;
+  font-family: 'Newsreader' !important;
+}
+
+Link {
+  color: white;
+  text-decoration-style: underline;
+  text-decoration-color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
