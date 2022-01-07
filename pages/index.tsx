@@ -1,7 +1,6 @@
 import React from "react";
 import { chakra } from "@chakra-ui/react";
-import Hero from './components/Hero'
-import Content from './components/Content'
+import Hero from '../components/Hero'
 
 const Index = () => {
   return (
