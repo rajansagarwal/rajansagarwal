@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import Link from 'next/link';
 
-const Hero = () => {
+const Projects = () => {
   return (
     <Flex 
     px={4} 
@@ -29,51 +29,100 @@ const Hero = () => {
           lineHeight="larger"
           color={useColorModeValue("gray.100", "white")}
         >
-          Rajan Agarwal
+          Heading
+          <hr/><br/>
         </Heading>
+        
         <Heading
           as="h2"
           fontFamily="Newsreader"
           my={3}
-          fontSize={{ base: '2xl', md: "2xl" }}
+          fontSize={{ base: '2em', md: "2em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          I build <Link href="">cool things</Link> with <Link href="">cool people</Link>.
+          <strong>Title 1</strong>
         </Heading>
+        
         <Heading
           as="h3"
           fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.5em" }}
           my={3}
-          fontSize="2xl"
           fontWeight="500"
-          lineHeight="shorter"
           color={useColorModeValue("gray.100", "white")}
         >
-          Currently, I&apos;m working on a custom blockchain for deployment.
+          Description 1<br/><br/>
+
+          <details>
+          <summary>Read More</summary>
+          <p><br/>
+Summary & more info
+          </p>
+          </details>
+          <br/>
         </Heading>
-        <Heading
-          as="h4"
+
+           <Heading
+          as="h2"
           fontFamily="Newsreader"
           my={3}
-          fontSize="2xl"
+          fontSize={{ base: '2em', md: "2em" }}
           fontWeight="500"
-          lineHeight="shorter"
           color={useColorModeValue("gray.100", "white")}
         >
-          I work with high-impact youth organizations & startups.
+          <strong>Title 1</strong>
         </Heading>
+        
         <Heading
-          as="h4"
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.5em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Description 1<br/><br/>
+
+          <details>
+          <summary>Read More</summary>
+          <p><br/>
+Summary & more info
+          </p>
+          </details>
+          <br/>
+        </Heading>
+
+           <Heading
+          as="h2"
           fontFamily="Newsreader"
           my={3}
-          fontSize="2xl"
+          fontSize={{ base: '2em', md: "2em" }}
           fontWeight="500"
-          lineHeight="shorter"
           color={useColorModeValue("gray.100", "white")}
         >
-          Within the community, I initiate actionable ventures. 
+          <strong>Title 1</strong>
         </Heading>
+        
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.5em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Description 1<br/><br/>
+
+          <details>
+          <summary>Read More</summary>
+          <p><br/>
+Summary & more info
+          </p>
+          </details>
+          <br/>
+        </Heading>
+
         <chakra.p 
            className="description"
            color="gray.500" 
@@ -86,4 +135,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Projects;

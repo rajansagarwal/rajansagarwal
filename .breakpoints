@@ -1,11 +1,19 @@
 {
   "files": {
+    "README.md": [
+      {
+        "id": "ef63ba52-f198-4f04-83b6-a4a1334863af",
+        "line": 1,
+        "version": 41,
+        "index": 0
+      }
+    ],
     "next.config.js": [
       {
         "id": "2110eb55-a1dd-4c7d-84bd-f67c4f0e7d0e",
-        "line": 5,
-        "version": 11,
-        "index": 105
+        "line": 4,
+        "version": 13,
+        "index": 85
       }
     ]
   }

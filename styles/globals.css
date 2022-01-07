@@ -8,10 +8,17 @@ body {
   color: white;
   font-family: 'Newsreader' !important;
 }
-
+summary {
+  font-style: italic;
+}
 Link {
   color: white;
   text-decoration-style: underline;
+  cursor: pointer;
+}
+
+u:hover {
+  cursor: pointer;
 }
 
 a {
