@@ -14,6 +14,15 @@ import { Tooltip } from '@geist-ui/react';
 
 const Index = () => {
   return (
+		<>
+		<Head>
+		<title>Rajan Agarwal</title>
+		<meta charset="UTF-8"></meta>
+  <meta name="description" content="hey, i build cool things with cool people. in my free time, i work on community ventures and research the future of web3!"></meta>
+  <meta name="keywords" content="Rajan, Rajan Agarwal, Agarwal, Turner Fenton, Developer, Hacktivist, Brampton, Ontario, Toronto"></meta>
+  <meta name="author" content="Rajan Agarwal"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+		</Head>
     <Flex 
     px={4} 
     pt={{ base: '12', md: '24' }} 
@@ -86,6 +95,7 @@ const Index = () => {
         </chakra.p>
       </Box>
     </Flex>
+		</>
   );
 };
 
