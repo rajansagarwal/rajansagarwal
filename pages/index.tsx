@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import Link from 'next/link';
 import Head from 'next/head';
+import { Tooltip } from '@geist-ui/react';
 
 const Index = () => {
   return (
@@ -32,6 +33,7 @@ const Index = () => {
         >
           Rajan Agarwal
         </Heading>
+
         <Heading
           as="h2"
           fontFamily="Newsreader"
@@ -51,7 +53,7 @@ const Index = () => {
           lineHeight="shorter"
           color={useColorModeValue("gray.100", "white")}
         >
-          Currently, I&apos;m <Link href="/research"><u>researching</u></Link>  custom deployment & actionable tech.
+          Currently, I&apos;m <Link href="/research"><u>researching</u></Link>  custom blockchains & actionable biotech.
         </Heading>
         <Heading
           as="h4"

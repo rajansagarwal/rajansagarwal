@@ -29,7 +29,7 @@ const Projects = () => {
           lineHeight="larger"
           color={useColorModeValue("gray.100", "white")}
         >
-          Heading
+          Projects
           <hr/><br/>
         </Heading>
         
@@ -41,13 +41,12 @@ const Projects = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <strong>Title 1</strong>
+          <strong>Ethereal Expression</strong>
         </Heading>
-        
         <Heading
           as="h3"
           fontFamily="Newsreader"
-          fontSize={{ base: '1.2em', md: "1.5em" }}
+          fontSize={{ base: '1.2em', md: "1.4em" }}
           my={3}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
@@ -77,7 +76,7 @@ Summary & more info
         <Heading
           as="h3"
           fontFamily="Newsreader"
-          fontSize={{ base: '1.2em', md: "1.5em" }}
+          fontSize={{ base: '1.2em', md: "1.4em" }}
           my={3}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
@@ -107,7 +106,7 @@ Summary & more info
         <Heading
           as="h3"
           fontFamily="Newsreader"
-          fontSize={{ base: '1.2em', md: "1.5em" }}
+          fontSize={{ base: '1.2em', md: "1.4em" }}
           my={3}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
