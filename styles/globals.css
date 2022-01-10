@@ -29,3 +29,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+blockquote{
+  font-size: inheret;
+  width:60%;
+	height: 30px;
+  margin: 20px auto;
+  color: #ffffff;
+  padding: 0em 0.1em 0.2em 0.5em;
+  border-left: 3px solid #ffffff ;
+  line-height: 1.6;
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}

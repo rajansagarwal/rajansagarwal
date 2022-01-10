@@ -9,6 +9,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import Link from 'next/link';
+import Footer from '../components/Footer'
 
 const Projects = () => {
   return (
@@ -29,7 +30,7 @@ const Projects = () => {
           lineHeight="larger"
           color={useColorModeValue("gray.100", "white")}
         >
-          Projects
+          Community
           <hr/><br/>
         </Heading>
         
@@ -41,7 +42,7 @@ const Projects = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <strong>Ethereal Expression</strong>
+          <strong>Connections</strong>
         </Heading>
         <Heading
           as="h3"
@@ -51,18 +52,12 @@ const Projects = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          Description 1<br/><br/>
+        I&#39;m on a mission. 
+					<br/><br/>
 
-          <details>
-          <summary>Read More</summary>
-          <p><br/>
-Summary & more info
-          </p>
-          </details>
-          <br/>
         </Heading>
 
-           <Heading
+             <Heading
           as="h2"
           fontFamily="Newsreader"
           my={3}
@@ -70,9 +65,8 @@ Summary & more info
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <strong>Title 1</strong>
+          <strong>The Hackerverse</strong>
         </Heading>
-        
         <Heading
           as="h3"
           fontFamily="Newsreader"
@@ -83,16 +77,9 @@ Summary & more info
         >
           Description 1<br/><br/>
 
-          <details>
-          <summary>Read More</summary>
-          <p><br/>
-Summary & more info
-          </p>
-          </details>
-          <br/>
         </Heading>
 
-           <Heading
+				<Heading
           as="h2"
           fontFamily="Newsreader"
           my={3}
@@ -100,9 +87,8 @@ Summary & more info
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <strong>Title 1</strong>
+          <strong>Speaking</strong>
         </Heading>
-        
         <Heading
           as="h3"
           fontFamily="Newsreader"
@@ -113,22 +99,32 @@ Summary & more info
         >
           Description 1<br/><br/>
 
-          <details>
-          <summary>Read More</summary>
-          <p><br/>
-Summary & more info
-          </p>
-          </details>
-          <br/>
         </Heading>
 
-        <chakra.p 
-           className="description"
-           color="gray.500" 
-           fontSize="1xl"
-           >
-          github, twitter, philosophy, directory
-        </chakra.p>
+
+				  <Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          <strong>Community Development</strong>
+        </Heading>
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.4em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Description 1<br/><br/>
+
+        </Heading>
+
+       <Footer/>
       </Box>
     </Flex>
   );

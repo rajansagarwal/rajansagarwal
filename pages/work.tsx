@@ -30,7 +30,7 @@ const Projects = () => {
           lineHeight="larger"
           color={useColorModeValue("gray.100", "white")}
         >
-          Current Projects
+          Previous Experiences
           <hr/><br/>
         </Heading>
         
@@ -42,7 +42,7 @@ const Projects = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <strong>EHR Aggregation</strong>
+          <strong>Team Salutem</strong>
         </Heading>
         <Heading
           as="h3"
@@ -71,7 +71,7 @@ Summary & more info
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <strong>Custom Blockchains</strong>
+          <strong>JEC Toronto</strong>
         </Heading>
         
         <Heading
@@ -101,7 +101,7 @@ Summary & more info
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <strong>Idyllic Prosthetics</strong>
+          <strong>Minds On</strong>
         </Heading>
         
         <Heading
@@ -131,7 +131,7 @@ Summary & more info
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <strong>DeFi Awareness</strong>
+          <strong>Hack Club</strong>
         </Heading>
         
         <Heading
@@ -153,7 +153,126 @@ Summary & more info
           <br/>
         </Heading>
 
-        <Footer/>
+					<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          <strong>Turner Fenton Debate Society</strong>
+        </Heading>
+        
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.4em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Description 1<br/><br/>
+
+          <details>
+          <summary>Read More</summary>
+          <p><br/>
+Summary & more info
+          </p>
+          </details>
+          <br/>
+        </Heading>
+
+					<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          <strong>DECA</strong>
+        </Heading>
+        
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.4em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Description 1<br/><br/>
+
+          <details>
+          <summary>Read More</summary>
+          <p><br/>
+Summary & more info
+          </p>
+          </details>
+          <br/>
+        </Heading>
+
+					<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          <strong>Beyond the Five</strong>
+        </Heading>
+        
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.4em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Description 1<br/><br/>
+
+          <details>
+          <summary>Read More</summary>
+          <p><br/>
+Summary & more info
+          </p>
+          </details>
+          <br/>
+        </Heading>
+
+					<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          <strong>UofT URECS Research</strong>
+        </Heading>
+        
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.4em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Description 1<br/><br/>
+
+          <details>
+          <summary>Read More</summary>
+          <p><br/>
+Summary & more info
+          </p>
+          </details>
+          <br/>
+        </Heading>
+ <Footer/>
       </Box>
     </Flex>
   );
