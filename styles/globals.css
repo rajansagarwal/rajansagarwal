@@ -4,7 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #090c0d;
+  background-color: #090c0d !important;
   color: white;
   font-family: 'Newsreader' !important;
 }
@@ -15,6 +15,15 @@ Link {
   color: white;
   text-decoration-style: underline;
   cursor: pointer;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 u:hover {
