@@ -12,8 +12,9 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { Tooltip } from '@geist-ui/react';
 import Image from 'next/image';
-import Footer from '../components/Footer'
-import { Container, Col, Row } from 'react-grid-system'
+import Footer from '../components/Footer';
+import { Container, Col, Row } from 'react-grid-system';
+import FadeIn from 'react-fade-in';
 
 const Index = () => {
   return (
@@ -38,6 +39,7 @@ const Index = () => {
        
 <Row>
 <Col sm={12}>
+<FadeIn delay={1000} transitionDuration={1000}>
  <Heading
           as="h2"
           fontFamily="Newsreader"
@@ -47,7 +49,6 @@ const Index = () => {
           fontSize={{ base: '1.4em', md: "1.5em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
-					style={{ animationName: 'fadein', animationDuration: '2s' }}
         >
           it all began with a few robots, and then a few websites. 
         </Heading>
@@ -61,7 +62,6 @@ const Index = () => {
           fontSize={{ base: '1.4em', md: "1.5em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
-					style={{ animationName: 'fadein', animationDuration: '4s' }}
         >
           inspired by methodical creation, i began my work on high-impact projects.
         </Heading>
@@ -75,7 +75,6 @@ const Index = () => {
           fontSize={{ base: '1.4em', md: "1.5em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
-					style={{ animationName: 'fadein', animationDuration: '4s' }}
         >
          currently, i&#39;m researching custom blockchains and actionable biotech.
         </Heading>
@@ -88,12 +87,11 @@ const Index = () => {
           fontSize={{ base: '1.4em', md: "1.5em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
-					style={{ animationName: 'fadein', animationDuration: '4s' }}
         >
          i&#39;m rajan: hacker, author and developer.
         </Heading>
 
-    
+  </FadeIn>
 </Col>
 		</Row>
 
