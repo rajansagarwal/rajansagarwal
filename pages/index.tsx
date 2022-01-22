@@ -46,7 +46,7 @@ const Index = () => {
           fontFamily="Newsreader"
           my={3}
 					pb="1"
-					align="center"
+					className="center"
           fontSize={{ base: '1.3em', md: "1.5em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
@@ -58,8 +58,8 @@ const Index = () => {
           as="h2"
 					my={3}
 					pb="1"
-					align="center"
 					pt="2"
+					className="center"
           fontFamily="Newsreader"
           fontSize={{ base: '1.3em', md: "1.5em" }}
           fontWeight="500"
@@ -71,8 +71,8 @@ const Index = () => {
 				<Heading
 					my={3}
 					pb="1"
-					align="center"
 					pt="2"
+					className="center"
           fontFamily="Newsreader"
           fontSize={{ base: '1.3em', md: "1.5em" }}
           fontWeight="500"

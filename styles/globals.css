@@ -9,6 +9,12 @@ body {
 	overflow: hidden;
   font-family: 'Newsreader' !important;
 }
+
+.center {
+	align-items: center !important;
+	justify-content: center;
+}
+
 summary {
   font-style: italic;
 }
