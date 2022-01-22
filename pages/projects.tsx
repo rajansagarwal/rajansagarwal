@@ -19,6 +19,7 @@ const Projects = () => {
 		<Head>
 		<title>Projects | Rajan Agarwal</title>
 <meta name="description" content="hey, i build cool things with cool people. in my free time, i work on community ventures and research the future of web3!"></meta>
+<link rel="shortcut icon"  type="image/x-icon" href="https://file.heyrajan.com/i-profile.jpg"/>
 	<meta name="theme-color" content="#000000"></meta>
   <meta name="keywords" content="Rajan, Rajan Agarwal, Agarwal, Turner Fenton, Developer, Hacktivist, Brampton, Ontario, Toronto"></meta>
   <meta name="author" content="Rajan Agarwal"></meta>
