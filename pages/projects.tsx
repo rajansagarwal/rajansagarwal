@@ -11,6 +11,7 @@ import {
 import Link from 'next/link';
 import Head from 'next/head';
 import Footer from '../components/Footer'
+import FadeIn from 'react-fade-in';
 
 const Projects = () => {
   return (
@@ -23,6 +24,8 @@ const Projects = () => {
   <meta name="author" content="Rajan Agarwal"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 		</Head>
+
+
     <Flex 
     px={4} 
     pt={{ base: '12', md: '24' }} 
@@ -30,7 +33,9 @@ const Projects = () => {
     mx="auto"
     bg="#090c0d"
     color="white">
-      <Box w="full" align="left" justify="center" mx="auto" px={{ base: '2%', md: '20%' }}>
+      <Box w="full" align="left" justify="center" mx="auto" px={{ base: '1%', md: '17%' }}>
+
+
         <Heading 
           as='h1' 
           size='2xl' 
@@ -43,7 +48,7 @@ const Projects = () => {
           Projects
           <hr/><br/>
         </Heading>
-        
+        <FadeIn delay={100} transitionDuration={100}>
         <Heading
           as="h2"
           fontFamily="Newsreader"
@@ -170,7 +175,7 @@ Financial report features also help companies formulate a written copy based on 
           </details>
           <br/>
         </Heading>
-
+</FadeIn>
         <Footer/>
       </Box>
     </Flex>

@@ -14,7 +14,7 @@ const Footer = () => {
         <chakra.p 
            className="description"
            color="gray.500" 
-           fontSize="1.2em"
+           fontSize="0.8em"
            >
           github, twitter, writings, directory
         </chakra.p>

@@ -6,7 +6,6 @@ body {
   margin: 0;
   background-color: #090c0d !important;
   color: white;
-	overflow: hidden;
   font-family: 'Newsreader' !important;
 }
 
@@ -21,7 +20,11 @@ summary {
 Link {
   color: white;
   text-decoration-style: underline;
-  cursor: pointer;
+  cursor: pointer !important;
+}
+
+Link:hover {
+	cursor: pointer !important;
 }
 
 @keyframes fadein {

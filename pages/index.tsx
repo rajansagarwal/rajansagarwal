@@ -13,6 +13,7 @@ import Head from 'next/head';
 import { Tooltip } from '@geist-ui/react';
 import Image from 'next/image';
 import Transition from '../components/Transition';
+import Footer from '../components/Footer';
 import { Container, Col, Row } from 'react-grid-system';
 import FadeIn from 'react-fade-in';
 
@@ -27,7 +28,7 @@ const Index = () => {
   <meta name="author" content="Rajan Agarwal"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 		</Head>
-
+		
     <Flex 
     px={4} 
     mx="auto"
@@ -51,7 +52,7 @@ const Index = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          inspired by methodical creation, i work on high-impact projects.
+          <Link href="/story"><u>inspired</u></Link> by methodical creation, i work on high-impact <Link href="/research"><u>projects</u></Link>.
         </Heading>
 
 				 <Heading
@@ -65,7 +66,7 @@ const Index = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          within the community, i initiate actionable ventures.
+          within the <Link href="/writings"><u>community</u></Link>, i initiate actionable <Link href="/ventures"><u>ventures</u></Link>.
         </Heading>
 
 				<Heading
