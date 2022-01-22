@@ -6,6 +6,7 @@ body {
   margin: 0;
   background-color: #090c0d !important;
   color: white;
+	overflow: hidden;
   font-family: 'Newsreader' !important;
 }
 summary {
