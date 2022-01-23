@@ -33,16 +33,16 @@ const Index = () => {
     <Flex 
     px={4} 
     mx="auto"
-		py="37vh"
+		py="33vh"
     bg="#090c0d"
     color="white">
-      <Box w="full" align="left" justify="center" mx="auto" px={{ base: '0%', md: '17%' }}>
+      <Box w="full" align="left" justify="center" mx="auto" px={{ base: '0%', xl: '17%' }}>
        
 <Row>
 
 
 <Col sm={12}>
-<FadeIn delay={1300} transitionDuration={800}>
+<FadeIn delay={1000} transitionDuration={1000}>
  <Heading
           as="h2"
           fontFamily="Newsreader"
@@ -53,9 +53,21 @@ const Index = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          <Link href="/story"><u>inspired</u></Link> by methodical creation, i work on high-impact <Link href="/research"><u>projects</u></Link>.
+          <Link href="/story"><u>inspired</u></Link> by methodical creation, i work on high-impact <Link href="/work"><u>projects</u></Link>.
         </Heading>
-
+ <Heading
+          as="h2"
+					my={3}
+					pb="1"
+					pt="2"
+					className="center"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.3em', md: "1.5em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+        <Link href="/latest"><u>currently</u></Link>, i&#39;m working on <Link href="/ethereal"><u>poetic expression</u></Link> & data <Link href="/datum"><u> aggregation</u></Link>. 
+        </Heading>
 				 <Heading
           as="h2"
 					my={3}
@@ -67,7 +79,7 @@ const Index = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          within the <Link href="/writings"><u>community</u></Link>, i initiate actionable <Link href="/ventures"><u>ventures</u></Link>.
+        outside of work, i <Link href="/writings"><u>write</u></Link> and launch community <Link href="/ventures"><u>ventures</u></Link>.
         </Heading>
 
 				<Heading

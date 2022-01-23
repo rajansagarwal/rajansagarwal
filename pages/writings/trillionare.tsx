@@ -34,7 +34,7 @@ const Projects = () => {
     mx="auto"
     bg="#090c0d"
     color="white">
-      <Box w="full" align="left" justify="center" mx="auto" px={{ base: '2%', md: '20%' }}>
+      <Box w="full" align="left" justify="center" mx="auto" px={{ base: '1%', md: '5%', xl: '17%' }}>
         <Heading 
           as='h1' 
           fontSize='1.6em' 

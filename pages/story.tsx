@@ -9,7 +9,6 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import Link from 'next/link';
-import Footer from '../../components/Footer'
 import FadeIn from 'react-fade-in'
 import Head from 'next/head'
 
@@ -18,7 +17,7 @@ const Page = () => {
 		<>
 
 <Head>
-		<title>Writings | Rajan Agarwal</title>
+		<title>Story | Rajan Agarwal</title>
   <meta name="description" content="hey, i build cool things with cool people. in my free time, i work on community ventures and research the future of web3!"></meta>
 	<link rel="shortcut icon"  type="image/x-icon" href="https://file.heyrajan.com/i-profile.jpg"/>
 	<meta name="theme-color" content="#090c0d"></meta>
@@ -44,7 +43,7 @@ const Page = () => {
           lineHeight="larger"
           color='#949494'
         >
-          <Link href="/">rajan</Link> / <Link href="/writings">writings</Link>
+          <Link href="/">rajan</Link> / <Link href="/story">story</Link>
           <br/>
         </Heading>
         <FadeIn>
@@ -53,86 +52,58 @@ const Page = () => {
  <Heading
           as="h2"
           fontFamily="Newsreader"
-          my={3}
-          fontSize={{ base: '2em', md: "2em" }}
+          my={5}
+          fontSize={{ base: '1.4em', md: "1.4em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-					<Link
-				  href="/writings/ethnocentrism"
-				>
-          Ethnocentrism & Wellbeing
-					</Link>
-        </Heading>
-				
-        <Heading
-          as="h3"
-          fontFamily="Newsreader"
-          fontSize={{ base: '1.2em', md: "1.4em" }}
-          my={3}
-          fontWeight="500"
-          color={useColorModeValue("gray.100", "white")}
-        >
-          How can we have self-determination without sufficient governance?<br/><br/>
-          <br/>
-        </Heading>
 
-  
+         it all began with a few robots, and then a few websites.
+
+        </Heading>
+			
+
  <Heading
           as="h2"
           fontFamily="Newsreader"
-          my={3}
-          fontSize={{ base: '2em', md: "2em" }}
+          my={5}
+          fontSize={{ base: '1.4em', md: "1.4em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-					<Link
-				  href="/writings/surveillance-capitalism"
-				>
-          Surveillance Capitalism
-					</Link>
-        </Heading>
-				
-        <Heading
-          as="h3"
-          fontFamily="Newsreader"
-          fontSize={{ base: '1.2em', md: "1.4em" }}
-          my={3}
-          fontWeight="500"
-          color={useColorModeValue("gray.100", "white")}
-        >
-         When will we first encounter true democracy?<br/><br/>
-          <br/>
+
+         i fell in love with the idea of hacking: building cool things with cool people.
+
         </Heading>
 
-
-  
+	
  <Heading
           as="h2"
           fontFamily="Newsreader"
-          my={3}
-          fontSize={{ base: '2em', md: "2em" }}
+          my={5}
+          fontSize={{ base: '1.4em', md: "1.4em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-					<Link
-				href="/writings/trillionare"
-				>
-          The Trillionare Paradox
-					</Link>
+
+          coding isn&#39;t a hobby, it&#39;s a vision.
+
         </Heading>
-				
-        <Heading
-          as="h3"
+			
+
+ <Heading
+          as="h2"
           fontFamily="Newsreader"
-          fontSize={{ base: '1.2em', md: "1.4em" }}
-          my={3}
+          my={5}
+          fontSize={{ base: '1.4em', md: "1.4em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          The first trillionare will be one that can harness the power of data.<br/><br/>
-          <br/>
+
+          more <i>story</i> coming soon.
+
         </Heading>
+			
 
 	
 	
