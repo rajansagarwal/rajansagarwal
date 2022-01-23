@@ -9,7 +9,6 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import Link from 'next/link';
-import Footer from '../../components/Footer'
 import FadeIn from 'react-fade-in'
 import Head from 'next/head'
 
