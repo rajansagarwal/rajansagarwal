@@ -2,13 +2,12 @@ import React, { Component } from "react";
 import ReactTextTransition, { presets } from "react-text-transition";
 
 const texts = [
-  "rajan.",
-  "a designer.",
+  "a writer.",
+	"rajan.",
   "a developer.",
 	"an author.",
 	"a hacker.",
 	"curious.",
-	"a writer.",
 ];
 
 class Transition extends Component {
