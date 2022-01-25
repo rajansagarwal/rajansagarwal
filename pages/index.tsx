@@ -42,7 +42,7 @@ const Index = () => {
 
 
 <Col sm={12}>
-<FadeIn>
+<FadeIn delay={200} transitionDuration={700}>
  <Heading
           as="h2"
           fontFamily="Newsreader"
