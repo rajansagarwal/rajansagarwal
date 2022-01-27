@@ -42,7 +42,7 @@ const Index = () => {
 
 
 <Col sm={12}>
-<FadeIn delay={200} transitionDuration={700}>
+<FadeIn delay={150} transitionDuration={700}>
  <Heading
           as="h2"
           fontFamily="Newsreader"
@@ -81,7 +81,6 @@ const Index = () => {
         >
         outside of work, i <Link href="/writings"><u>write</u></Link> and launch community <Link href="/ventures"><u>ventures</u></Link>.
         </Heading>
-
 				<Heading
 					my={3}
 					pb="1"

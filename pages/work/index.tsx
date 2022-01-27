@@ -11,10 +11,11 @@ import {
 import Link from 'next/link';
 import FadeIn from 'react-fade-in'
 import Head from 'next/head'
+import { Container, Row, Col } from 'react-grid-system'
 
 const Page = () => {
   return (
-		<>
+		<Container>
 
 <Head>
 		<title>Work | Rajan Agarwal</title>
@@ -46,10 +47,10 @@ const Page = () => {
           <Link href="/">rajan</Link> / <Link href="/writings">work</Link>
           <br/>
         </Heading>
-        <FadeIn>
-			
-    
- <Heading
+         <FadeIn>
+<Row>
+<Col sm={6}>	
+			<Heading
           as="h2"
           fontFamily="Newsreader"
           my={3}
@@ -58,17 +59,122 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/ethnocentrism"
+				  href="/writings/human-rights"
 				>
-          under construction.
+          Organizations
+					</Link>
+					<br/><br/>
+        </Heading>
+				</Col>
+			<Col sm={6}>
+				<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '1.7em', md: "1.7em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+					<Link
+				  href="/writings/human-rights"
+				>
+          On Human Rights & Sovereignty
 					</Link>
         </Heading>
 				
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.1em', md: "1.3em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          The classic debate of universalism against relativism.<br/><br/>
+          <br/>
+        </Heading>
+				<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '1.7em', md: "1.7em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+					<Link
+				  href="/writings/human-rights"
+				>
+          On Human Rights & Sovereignty
+					</Link>
+        </Heading>
+				
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.1em', md: "1.3em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          The classic debate of universalism against relativism.<br/><br/>
+          <br/>
+        </Heading>
+				</Col>
+   </Row> 
+
+	 <Row>
+<Col sm={6}>	
+			<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+					<Link
+				  href="/writings/human-rights"
+				>
+          Projects
+					</Link>
+					<br/><br/>
+        </Heading>
+				</Col>
+			<Col sm={6}>
+				<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '1.7em', md: "1.7em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+					<Link
+				  href="/writings/human-rights"
+				>
+          On Human Rights & Sovereignty
+					</Link>
+        </Heading>
+				
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.1em', md: "1.3em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          The classic debate of universalism against relativism.<br/><br/>
+          <br/>
+        </Heading>
+				</Col>
+   </Row> 
+			
 	
          </FadeIn>
       </Box>
     </Flex>
-		</>
+			</Container>
   );
 };
 

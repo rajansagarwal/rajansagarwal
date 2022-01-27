@@ -73,12 +73,25 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 
-        Software has changed the world, what if it could change the way we express ourselves? Autonomous systems and algorithmic art are critical to this new era of digital expression. Through neural networks and NLP, poetry is interpreted, analyzed and transformed into generative art.
+        TL;DR: Software has changed the world, what if it could change the way we express ourselves? Autonomous systems and algorithmic art are critical to this new era of digital expression. Through neural networks and NLP, poetry is interpreted, analyzed and transformed into generative art.
 
-        </Heading>
-<br/><br/>				
-<img src="https://cloud-r2onbrszd-hack-club-bot.vercel.app/0image.png"/>
-	<br/><br/>
+        </Heading>			
+	<br/>		<img src="https://cloud-r2onbrszd-hack-club-bot.vercel.app/0image.png"/>
+	<br/>
+ <Heading
+          as="h1"
+          fontFamily="Newsreader"
+          my={5}
+					mt={9}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+					lineHeight="auto"
+          color={useColorModeValue("gray.100", "white")}
+        >
+
+       Project Breakdown
+
+        </Heading>			
  <Heading
           as="h2"
           fontFamily="Newsreader"
@@ -91,10 +104,11 @@ const Page = () => {
 
          In its independent form, generative art redefines the purpose of computer output; current interfaces are tailored to human interaction, but never human expression. Computational devices may not have emotions, but deep learning has the ability to interpret and design frameworks around these considerations. Through natural language processing (NLP) and neural networks, this AI system can interpret poetry to develop meaningful, generative art.
 <br/><br/>
+The z+quantize method allows for motion graphics for generative art—quantization algorithms utilize range-based linear methods asymmetrically, which maps the minimum and maximum points using a quantization bias. The convolution layer allows for the range to be used extensively, creating distinct min/max points for the resultant graphic to be placed in. This system also allows for keyframes and animations to be implemented. In terms of developing the graphics themselves, the neural network introduces a text to image paradigm, by combining GAN architectures with OpenAI’s CLIP system. The Vector Quantized Generative Adversarial Network (VQGAN), utilizes these convolutional neural networks with a Contrastive Language-Image Pre-training (CLIP) model, to create supervised learning for visual models. The two models work simultaneously, to compile countless interpretations of the prompt, and subsequently compare this graphic to the prompt to identify its respective accuracy.
+<br/><br/>
 The next step for this project is the community impact. Through discussion with uprising poets and influential NLP developers, I want to turn this software into the next generation of literary expression
 
         </Heading>
-			
 
  <Heading
           as="h2"

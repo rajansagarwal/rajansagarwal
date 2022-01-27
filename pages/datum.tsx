@@ -73,7 +73,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 
-         how can we enable hospitals to transition into a more patient-centric health care process by creating tools for transitioning from traditional data analysis and management systems through new advances in machine learning?
+         TL;DR: Enabling hospitals to transition into a more patient-centric health care process by creating tools for transitioning from traditional data analysis and management systems.
 
         </Heading>
  <Heading

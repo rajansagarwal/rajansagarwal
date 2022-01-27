@@ -49,6 +49,32 @@ const Page = () => {
         </Heading>
         <FadeIn>
 			
+			<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+					<Link
+				  href="/writings/human-rights"
+				>
+          On Human Rights & Sovereignty
+					</Link>
+        </Heading>
+				
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.2em', md: "1.4em" }}
+          my={3}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          The classic debate of universalism against relativism.<br/><br/>
+          <br/>
+        </Heading>
     
  <Heading
           as="h2"
