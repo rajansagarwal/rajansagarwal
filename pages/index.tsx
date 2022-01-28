@@ -42,7 +42,7 @@ const Index = () => {
 
 
 <Col sm={12}>
-<FadeIn delay={150} transitionDuration={700}>
+<FadeIn delay={150} transitionDuration={600}>
  <Heading
           as="h2"
           fontFamily="Newsreader"
@@ -66,7 +66,7 @@ const Index = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-        <Link href="/latest"><u>currently</u></Link>, i&#39;m working on <Link href="/ethereal"><u>poetic expression</u></Link> & data <Link href="/datum"><u> aggregation</u></Link>. 
+        currently, i&#39;m working on <Link href="/ethereal"><u>poetic expression</u></Link> & data <Link href="/datum"><u> aggregation</u></Link>. 
         </Heading>
 				 <Heading
           as="h2"
