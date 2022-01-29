@@ -441,7 +441,7 @@ const Page = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-         A children's novel that tells the story of Ryan, a 17 year old with autism, and his journey to become a lawyer.<br/><br/>
+         A children&#39;s novel that tells the story of Ryan, a 17 year old with autism, and his journey to become a lawyer.<br/><br/>
         </Heading>
 
         <Heading
