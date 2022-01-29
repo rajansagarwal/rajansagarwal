@@ -66,7 +66,7 @@ const Projects = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          January 27, 2022<br/><br/>
+          January 2022<br/><br/>
           <br/>
         </Heading>
        

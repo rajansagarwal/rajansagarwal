@@ -58,11 +58,7 @@ const Page = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-					<Link
-				  href="/writings/human-rights"
-				>
           Organizations
-					</Link>
 					<br/><br/>
         </Heading>
 				</Col>
@@ -76,7 +72,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="https://mindson.dino.icu"
 				>
           Co-Founder, Minds On
 					</Link>
@@ -102,7 +98,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="https://jectoronto.org"
 				>
           Internal Affairs, JEC Toronto
 					</Link>
@@ -128,7 +124,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="/datum"
 				>
           Co-Founder, Datum Health
 					</Link>
@@ -154,7 +150,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="https://instagram.com/teamsalutem"
 				>
           Team Salutem
 					</Link>
@@ -180,7 +176,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="https://medium.com/junior-economist"
 				>
           Writer, Junior Economist & Mind Matrix
 					</Link>
@@ -201,12 +197,13 @@ const Page = () => {
 				</Col>
    </Row> 
 <br/><br/>
-	 <Row>
+<Row>
 <Col sm={5}>	
 			<Heading
           as="h2"
           fontFamily="Newsreader"
           my={3}
+					lineHeight="auto"
           fontSize={{ base: '2em', md: "2em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
@@ -214,7 +211,7 @@ const Page = () => {
 					<Link
 				  href="/writings/human-rights"
 				>
-          Projects
+          Research
 					</Link>
 					<br/><br/>
         </Heading>
@@ -224,14 +221,15 @@ const Page = () => {
           as="h2"
           fontFamily="Newsreader"
           my={3}
+					lineHeight="auto"
           fontSize={{ base: '1.7em', md: "1.7em" }}
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="/ethereal"
 				>
-          Generative Poetic Art
+          Generative Poetic Art & Neural Networks
 					</Link>
         </Heading>
 				
@@ -244,7 +242,7 @@ const Page = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          NLP & Machine Learning to turn literary expression into meaningful art.<br/><br/>
+         NLP & Machine Learning to turn literary expression into meaningful art.<br/><br/>
         </Heading>
 				<Heading
           as="h2"
@@ -255,7 +253,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="https://www.youtube.com/watch?v=inOwByW_ufs"
 				>
           Indigenous Water Distribution
 					</Link>
@@ -272,6 +270,53 @@ const Page = () => {
         >
          Aggregate data collection & community networks for water quality and distribution.<br/><br/>
         </Heading>
+        <Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '1.7em', md: "1.7em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+					<Link
+				  href="/writings/deso"
+				>
+         Decentralized Social
+					</Link>
+        </Heading>
+				
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.1em', md: "1.3em" }}
+          my={3}
+					lineHeight="auto"
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+         By decentralizing data, ownership is transferred to the population; for the first time, the people are in control.<br/><br/>
+        </Heading>
+				
+				
+				</Col>
+   </Row> 
+			<br/><br/>
+	 <Row>
+<Col sm={5}>	
+			<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Technical
+					<br/><br/>
+        </Heading>
+				</Col>
+			<Col sm={7}>
+
 				<Heading
           as="h2"
           fontFamily="Newsreader"
@@ -281,7 +326,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="https://devpost.com/software/diplomatica"
 				>
          Gamifying Political Awareness
 					</Link>
@@ -298,7 +343,8 @@ const Page = () => {
         >
          Redesigning political and social awareness through a gamified system, Hack The North 2021<br/><br/>
         </Heading>
-				<Heading
+
+        <Heading
           as="h2"
           fontFamily="Newsreader"
           my={3}
@@ -307,9 +353,9 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="https://workshops.hackclub.com/custom_search"
 				>
-         Web3: A Case Study
+         Personalized Search Engine
 					</Link>
         </Heading>
 				
@@ -322,8 +368,9 @@ const Page = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-         By decentralizing data, ownership is transferred to the population; for the first time, the people are in control.<br/><br/>
+         Redesigning political and social awareness through a gamified system, Hack The North 2021<br/><br/>
         </Heading>
+				
 				<Heading
           as="h2"
           fontFamily="Newsreader"
@@ -333,7 +380,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="/writings/human-rights"
+				  href="https://devpost.com/software/feather"
 				>
          Mainstream Mental Health
 					</Link>
@@ -352,7 +399,82 @@ const Page = () => {
         </Heading>
 				</Col>
    </Row> 
-			
+
+    			<br/><br/>
+	 <Row>
+<Col sm={5}>	
+			<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '2em', md: "2em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+          Ventures
+					<br/><br/>
+        </Heading>
+				</Col>
+			<Col sm={7}>
+
+				<Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '1.7em', md: "1.7em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+					<Link
+				  href="https://book.heyrajan.com"
+				>
+         Breaking Barriers
+					</Link>
+        </Heading>
+				
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.1em', md: "1.3em" }}
+          my={3}
+					lineHeight="auto"
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+         A children's novel that tells the story of Ryan, a 17 year old with autism, and his journey to become a lawyer.<br/><br/>
+        </Heading>
+
+        <Heading
+          as="h2"
+          fontFamily="Newsreader"
+          my={3}
+          fontSize={{ base: '1.7em', md: "1.7em" }}
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+					<Link
+				  href="https://run.heyrajan.com"
+				>
+         160km Run For Hope
+					</Link>
+        </Heading>
+				
+        <Heading
+          as="h3"
+          fontFamily="Newsreader"
+          fontSize={{ base: '1.1em', md: "1.3em" }}
+          my={3}
+					lineHeight="auto"
+          fontWeight="500"
+          color={useColorModeValue("gray.100", "white")}
+        >
+         Running 160km for social awareness about indigenous reconciliation.<br/><br/>
+        </Heading>
+				
+				</Col>
+   </Row> 	
+
+      <br/><br/>
 			 <Row>
 <Col sm={5}>	
 			<Heading
@@ -383,7 +505,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="https://instagram.com/debate.tfss"
+				  href="https://instagram.com/tfsshack"
 				>
           Co-President, TFSS Hack Club
 					</Link>
@@ -410,7 +532,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="https://instagram.com/debate.tfss"
+				  href="https://www.omun.ca/"
 				>
           Delegate, TFSS Model UN
 					</Link>
@@ -437,7 +559,7 @@ const Page = () => {
           color={useColorModeValue("gray.100", "white")}
         >
 					<Link
-				  href="https://instagram.com/debate.tfss"
+				  href="https://turnerfentondeca.com"
 				>
           Instructor, TFSS DECA
 					</Link>
