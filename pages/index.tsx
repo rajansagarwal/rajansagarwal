@@ -291,6 +291,7 @@ const Index = () => {
           fontWeight="bold"
           lineHeight="larger"
           color='#949494'
+          pb={12}
         >
           <Link href="/writings">latest</Link>
           <br/>
@@ -412,6 +413,7 @@ const Index = () => {
           fontWeight="bold"
           lineHeight="larger"
           color='#949494'
+          pb={12}
         >
           <Link href="/">work</Link>
           <br/>
@@ -657,10 +659,10 @@ const Index = () => {
           as='h1' 
           fontSize='1.6em' 
           fontFamily="Newsreader"
-          pb={12}
           fontWeight="bold"
           lineHeight="larger"
           color='#949494'
+          pb={12}
         >
           <Link href="/">technical</Link>
           <br/>
