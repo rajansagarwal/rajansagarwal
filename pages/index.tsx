@@ -203,7 +203,7 @@ const Index = () => {
     color="white">
       <Box w="full" align="left" justify="center" mx="auto" px={{ base: '0%', xl: '17%' }}>
     <Row>
-<Col sm={4.5}>	
+<Col sm={4.5}>	 
 <Heading 
           as='h1' 
           fontSize='1.6em' 
@@ -211,6 +211,7 @@ const Index = () => {
           fontWeight="bold"
           lineHeight="larger"
           color='#949494'
+          pb={12}
         >
           <Link href="/">ventures</Link>
           <br/>
@@ -764,7 +765,7 @@ const Index = () => {
           lineHeight="larger"
           color='#949494'
         >
-          <Link href="/">school</Link>
+          <Link href="/">leadership</Link>
           <br/>
         </Heading>
 				</Col>
