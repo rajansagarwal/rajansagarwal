@@ -765,7 +765,7 @@ const Index = () => {
           lineHeight="larger"
           color='#949494'
         >
-          <Link href="/">leadership</Link>
+          <Link href="/">school</Link>
           <br/>
         </Heading>
 				</Col>
