@@ -294,7 +294,7 @@ const Index = () => {
           color='#949494'
           pb={12}
         >
-          <Link href="/writings">latest</Link>
+          <Link href="/writings">writings</Link>
           <br/>
         </Heading>
 				</Col>
