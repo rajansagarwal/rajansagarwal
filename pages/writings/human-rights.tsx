@@ -81,7 +81,7 @@ const Projects = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-TL;DR: For human rights laws and treaties to be effective, states must give up some sovereignty
+For human rights laws and treaties to be effective, states must give up some sovereignty
 <br/><br/>				
 Throughout contemporary global politics, human rights have sparked an era of globalization as a universal indicator for equality, justice and liberty within nation-states. States are sovereign when they maintain complete jurisdiction over their geographical area; in order for human rights laws and treaties to be effective, this sovereignty is unequivocally challenged. 
 <br/><br/>
