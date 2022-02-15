@@ -10,10 +10,9 @@ import Footer from '../../components/Footer'
 import FadeIn from 'react-fade-in'
 import Head from 'next/head'
 
-const Projects = () => {
+const Trillionare = () => {
   return (
 		<>
-
 <Head>
 		<title>The Trillionare Paradox | Rajan Agarwal</title>
   <meta name="description" content="hey, i build cool things with cool people. in my free time, i work on community ventures and research the future of web3!"></meta>
@@ -120,4 +119,4 @@ In the first World War, the first billionaire, John D. Rockefeller, took advanta
   );
 };
 
-export default Projects;
+export default Trillionare;
