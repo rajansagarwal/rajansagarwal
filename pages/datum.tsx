@@ -17,7 +17,7 @@ const Page = () => {
 		<>
 
 <Head>
-		<title>Datum Health | Rajan Agarwal</title>
+		<title>Datum | Rajan Agarwal</title>
   <meta name="description" content="hey, i build cool things with cool people. in my free time, i work on community ventures and research the future of web3!"></meta>
 	<link rel="shortcut icon"  type="image/x-icon" href="https://file.heyrajan.com/i-profile.jpg"/>
 	<meta name="theme-color" content="#090c0d"></meta>
@@ -43,7 +43,7 @@ const Page = () => {
           lineHeight="larger"
           color='#949494'
         >
-          <Link href="/">rajan</Link> / <Link href="/ethereal">datum health</Link>
+          <Link href="/">rajan</Link> / <Link href="/ethereal">datum</Link>
           <br/>
         </Heading>
         <FadeIn>
