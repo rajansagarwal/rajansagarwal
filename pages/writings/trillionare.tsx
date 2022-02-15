@@ -1,12 +1,9 @@
 import React from "react";
 import {
-  chakra,
   Box,
   useColorModeValue,
   Flex,
   Heading,
-  Button,
-  HStack,
 } from "@chakra-ui/react";
 import Link from 'next/link';
 import Footer from '../../components/Footer'

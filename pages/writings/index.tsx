@@ -88,7 +88,7 @@ const Page = () => {
 					<Link
 				  href="/writings/deso"
 				>
-          A Case For Decentralized Social
+          A Case For Decentralized Social (DeSo)
 					</Link>
         </Heading>
 				
@@ -100,7 +100,7 @@ const Page = () => {
           fontWeight="500"
           color={useColorModeValue("gray.100", "white")}
         >
-          A vision for true ownership, through classical power distribution.<br/><br/>
+          A vision for true ownership, through power distribution.<br/><br/>
           <br/>
         </Heading>
 			<Heading
