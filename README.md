@@ -1,1 +1,1 @@
-hey, i'm rajan ~ I build cool projects with cool people.
+hey, i'm rajan ~ i build cool projects with cool people.
