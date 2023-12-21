@@ -1,6 +1,6 @@
 hi, i'm rajan and i build tech to solve fundamental problems with the most meaningful impact on those close and afar. 
 
-this fall, i will begin studying Software Engineering at the University of Waterloo. previously, i have worked in startups and global organzations to bring accessible and meaningful technology to thousands of students, engineers and individuals.
+i am currently studying Software Engineering at the University of Waterloo. previously, i have worked in startups and global organzations to bring accessible and meaningful technology to thousands of students, engineers and individuals.
 
 currently, i am building [Portal](https://wearportal.co): the most immersive way to search through your memories.
 
