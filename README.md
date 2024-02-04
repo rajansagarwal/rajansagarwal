@@ -6,4 +6,4 @@ currently, i am building [Portal](https://wearportal.co): the most immersive way
 
 recently, i built [Shapeshift](https://shapeshift.space): novel math + machine learning algorithms to optimize earthquake resistant buildings. i'm currently in the process of open sourcing its algorithms.
 
-you can view my work at [rajan.sh](https://rajan.sh), accurate as of July 2023. reach out on [twitter](https://twitter.com/_rajanagarwal) to meet up, IRL or online!
+you can view my work at [rajan.sh](https://rajan.sh), accurate as of December 2023. reach out on [twitter](https://twitter.com/_rajanagarwal) to meet up, IRL or online!
