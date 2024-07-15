@@ -1,9 +1,7 @@
-hi, i'm rajan and i build tech to solve fundamental problems with the most meaningful impact on those close and afar. 
+hi, i'm rajan and i build systems that better understand our physical and digital world.
 
-i am currently studying Software Engineering at the University of Waterloo. previously, i have worked in startups and global organzations to bring accessible and meaningful technology to thousands of students, engineers and individuals.
+i am currently building [Skyline](https://devpost.com/software/skyline-ywc8r6) to model how populations interact in our world. previously, i've built [Shapeshift](https://rajan.sh/work/shapeshift) and [Portal](https://www.youtube.com/watch?v=Vmupugz2M1s).
 
-currently, i am building [Portal](https://wearportal.co): the most immersive way to search through your memories.
+i also study Software Engineering at the University of Waterloo.
 
-recently, i built [Shapeshift](https://shapeshift.space): novel math + machine learning algorithms to optimize earthquake resistant buildings. i'm currently in the process of open sourcing its algorithms.
-
-you can view my work at [rajan.sh](https://rajan.sh), accurate as of December 2023. reach out on [twitter](https://twitter.com/_rajanagarwal) to meet up, IRL or online!
+please reach out on [twitter](https://x.com/_rajanagarwal) or email rajan [dot] agarwal [at] uwaterloo [dot] ca
