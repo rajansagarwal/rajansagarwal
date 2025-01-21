@@ -1,6 +1,6 @@
-hi, i'm rajan and i build systems that better understand our physical and digital world.
+hi, i'm rajan
 
-i am currently building [Skyline](https://humansimulation.ai) to model how populations interact in our world. previously, i've built [Shapeshift](https://rajan.sh/work/shapeshift) and [Portal](https://www.youtube.com/watch?v=Vmupugz2M1s).
+i am currently a research engineering intern @ [Kino AI](https://kino.ai), building video understanding for filmmakers. Before, I've worked with [simulation/agents](https://humansimulation.ai), [distributed training](https://rajan.sh/work/arceus), [earthquake research](https://rajan.sh/work/shapeshift), [wearables](https://www.youtube.com/watch?v=Vmupugz2M1s) & many more side quests.
 
 i also study Software Engineering at the University of Waterloo.
 
